@@ -1,0 +1,8 @@
+install.packages("swirl")
+library(swirl)
+rm(list = ls())
+swirl()
+install_from_swirl("Exploratory Data Analysis")
+library(ggplot2)
+install.packages("jpeg")
+library(jpeg)
